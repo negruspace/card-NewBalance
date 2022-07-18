@@ -1,2 +1,3 @@
 # card-NewBalance
-Maquetación de card  solo código css sin framework
+---
+Maquetación de card  personalizada NEW-BALANCE solo código css sin framework, con adaptacion flex-box.
