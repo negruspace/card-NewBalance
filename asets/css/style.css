@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Roboto+Condensed:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.container{
+    margin:90px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    min-width: 400px;
+    
+}
+.header{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.img-header{
+    width: 100%;
+    display: block;
+}
+.card-img{
+    width: 100%;
+    border-radius: 1em 1em 0 0 ;
+    display: block;
+}
+.card{
+    width: 300px;
+    
+    box-shadow: 0 0 4px;
+    border-radius: 1em;
+}
+.card-container{
+    text-align: center;
+    border-radius: 0 0 1em 1em;
+    border-top: 3px solid red;
+    padding: 20px 15px;
+}
+.card-title{
+    font-family: 'Roboto Condensed';
+    font-weight:700;
+    font-size: 2rem;
+    padding-bottom:10px;
+}
+.card-paragraph{
+    font-family:'Nunito Sans';
+    text-align:start;
+    line-height:1.5;
+}
+.card-button{
+    font-family: 'Nunito Sans';
+    background-color:red;
+    color: aliceblue;
+    text-decoration: none;
+    padding:1em 2em;
+    display: inline-block;
+    margin-top:1em;
+    border-radius: 2em;
+}
